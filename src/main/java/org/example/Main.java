@@ -123,9 +123,7 @@ public class Main {
     public static void displayStruct(){
         int countProduct = 0;
         int totalPrice = 0;
-        System.out.println("=========================");
-        System.out.println("BinarFud");
-        System.out.println("=========================");
+        System.out.println("=========================\nBinarFud\n=========================\n");
         System.out.println("Terimakasih Sudah Memesan Di BinarFud");
         System.out.println("Dibawah ini adalah pesanan anda\n");
         for (String key : dataOrder.keySet()){
