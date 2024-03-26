@@ -1,0 +1,13 @@
+
+‹
+java:S6208+"CMerge the previous cases into this one using comma-separated label.(«Æ•ıÿÿÿÿ8‚ûùÙç1J$2f9d5562-0f4f-44a1-a885-bcc1d6bdda10
+“	java:S128+"LEnd this switch case with an unconditional break, return or throw statement.(«Æ•ıÿÿÿÿ8öÒöÙç1J$e62934a4-b4f5-4915-9d58-774f4ed617b4
+
+java:S1128"9Remove this unused import 'org.example.entity.MenuModel'.(œ·ŠŸøÿÿÿÿ8•ûùÙç1J$6d2fc9ac-c96f-4d2c-afcf-a676063ebc5f
+r
+java:S1128	"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8•ûùÙç1J$57a4889e-ccd1-4450-839f-4a7fbdde4940
+r
+java:S1128
+"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8–ûùÙç1J$7b51e26a-75bc-4f46-8999-a3ac1ccd95c8
+r
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8–ûùÙç1J$316c102a-98f3-46c5-93cd-1fef3e0ccbe8
