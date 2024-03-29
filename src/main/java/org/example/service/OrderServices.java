@@ -6,7 +6,7 @@ import java.util.*;
 
 public class OrderServices implements Services
 {
-    List<OrderedModel> itemOrders = new ArrayList<>();
+    private List<OrderedModel> itemOrders = new ArrayList<>();
 
     @Override
     public void addOrder(OrderedModel itemOrdered)

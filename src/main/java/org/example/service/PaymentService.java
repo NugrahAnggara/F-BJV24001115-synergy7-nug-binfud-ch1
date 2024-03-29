@@ -27,7 +27,7 @@ public class PaymentService {
         }
         new Helper().dashedLine();
         new Helper().formatString("Total", countQuantity, totalPrice);
-        System.out.println("\nPembayaran : BinarCash");
+        System.out.println("Pembayaran : BinarCash");
         System.out.println(new Helper().headerMenu("Simpan struk ini sebagai bukti pembayaran").toString());
     }
 
@@ -52,7 +52,7 @@ public class PaymentService {
             }
             bfw.write("\n-------------------------------+\n");
             bfw.write(String.format("%-16s %-10d %d", "Total", countQuantity, totalPrice));
-            bfw.write("Pembayaran : BinarCash\n");
+            bfw.write("\n\nPembayaran : BinarCash\n");
             bfw.write(new Helper().headerMenu("Simpan struk ini sebagai bukti pembayaran").toString());
             bfw.flush();
         } catch (Exception exception) {
