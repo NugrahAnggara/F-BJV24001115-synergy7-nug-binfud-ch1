@@ -1,10 +1,13 @@
 package org.example.service;
 
-import org.example.entity.MenuModel;
+import org.example.model.OrderedModel;
 
-import java.util.Map;
+import java.util.List;
 
-public interface Services {
-    void addData(String name,int price,String key);
-    Map<String,MenuModel> getData();
+
+public interface Services
+{
+    void addOrder(OrderedModel menu);
+
+    List<OrderedModel> getData();
 }

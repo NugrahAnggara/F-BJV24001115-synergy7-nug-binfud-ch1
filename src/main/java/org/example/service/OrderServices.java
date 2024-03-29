@@ -1,43 +1,44 @@
 package org.example.service;
 
-import org.example.entity.MenuModel;
-import org.example.helper.exception.QuantityException;
-import org.example.util.ValidationUtil;
-import org.example.view.MenuView;
+import org.example.model.OrderedModel;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-public class OrderServices implements Services {
-    private Map<String, MenuModel> dataOrders = new HashMap<>();
+public class OrderServices implements Services
+{
+    List<OrderedModel> itemOrders = new ArrayList<>();
 
     @Override
-    public void addData(String name, int price, String key) {
-        boolean trigger = false;
-        do {
-            int quantity = new MenuView().insertQuantity(name, price);
-            try {
-                new ValidationUtil().validateQuantity(quantity);
-                trigger = true;
-                if (dataOrders.containsKey(key)) {
-                    MenuModel menuModel = dataOrders.get(key);
-                    menuModel.setQuantity(quantity);
-                    dataOrders.put(key, menuModel);
-                } else {
-                    MenuModel menu = new MenuModel(name, price);
-                    menu.setQuantity(quantity);
-                    dataOrders.put(key, menu);
-                }
+    public void addOrder(OrderedModel itemOrdered)
+    {
+        boolean found = false;
+        for (OrderedModel item : itemOrders) {
+            if (item.getMenu().getName().equals(itemOrdered.getMenu().getName())) {
+                int quantityNew = itemOrdered.getQuantity();
+                int quantityOld = item.getQuantity();
 
-                new MenuView().displayMenu();
-            } catch (QuantityException exception) {
-                System.out.println(exception);
+                int totalPriceNew = itemOrdered.getTotalPrice();
+                int totalPriceOld = item.getTotalPrice();
+                totalPriceOld += totalPriceNew;
+                quantityOld += quantityNew;
+
+                item.setTotalPrice(totalPriceOld);
+                item.setQuantity(quantityOld);
+                found = true;
+                break;
             }
-        } while (!trigger);
+        }
+
+        if (!found) {
+            itemOrders.add(itemOrdered);
+        }
     }
 
     @Override
-    public Map<String, MenuModel> getData() {
-        return this.dataOrders;
+    public List<OrderedModel> getData()
+    {
+        return this.itemOrders;
     }
+
+
 }
