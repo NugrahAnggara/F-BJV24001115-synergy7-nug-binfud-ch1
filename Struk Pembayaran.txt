@@ -1,0 +1,14 @@
+==================================
+BinarFud
+==================================
+Terimakasih Sudah Memesan di BinarFud
+Dibawah ini adalah pesanan anda
+Mie Ayam         12         144000
+
+-------------------------------+
+Total            12         144000
+
+Pembayaran : BinarCash
+==================================
+Simpan Struck ini sebagai bukti pembayaran
+==================================

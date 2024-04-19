@@ -1,4 +1,6 @@
 
-k	java:S108")Either remove or fill this block of code.(èüÄ8¥ö°¥ï1J$bf908abe-e303-46bb-8830-b3690044ff35
-m	java:S106%"+Replace this use of System.out by a logger.(¹€„ï8¦ö°¥ï1J$a1fe8f34-3913-4801-ab93-83dfc247cbf1
-m	java:S1061"+Replace this use of System.out by a logger.(±¼8—ß¥ï1J$a7c22df2-0329-4fdf-8143-c10f7d686c37
+m	java:S106&"+Replace this use of System.out by a logger.(¹€„ï8Êº¬·ï1J$3be3ea87-2ccc-444d-92be-e739649ff37c
+m	java:S1062"+Replace this use of System.out by a logger.(±¼8Îº¬·ï1J$5a4e28ce-0225-4843-91b0-99624a681e28
+r	java:S106Q"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Óº¬·ï1J$fdbfe0df-5d4d-4c95-a5f6-63a71cba59e0
+r	java:S106Y"+Replace this use of System.out by a logger.(À¼¼ßüÿÿÿÿ8Õ—­·ï1J$e22ff927-463e-4a83-ad5c-1f33cb9082d4
+L	java:S106["+Replace this use of System.out by a logger.(§„ŒĞùÿÿÿÿ8¤­®·ï1
