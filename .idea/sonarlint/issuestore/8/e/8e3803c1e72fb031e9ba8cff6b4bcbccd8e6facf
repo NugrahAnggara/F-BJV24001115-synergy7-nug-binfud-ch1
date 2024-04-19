@@ -1,0 +1,21 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(ÖØƒøÿÿÿÿ8ßÑ’¥ï1J$c6a51207-50d8-4d4f-8a34-808befbf5077
+r	java:S106 "+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8áÑ’¥ï1J$8f25e90a-d992-4525-8206-9446e162391e
+m	java:S106,"+Replace this use of System.out by a logger.(“Å‹š8âÑ’¥ï1J$a8e34e70-c8bf-494d-bb04-41c54a681968
+™
+java:S34576"Q%n should be used in place of \n to produce the platform-specific line separator.(µüËÖüÿÿÿÿ8äÑ’¥ï1J$55cee17b-8394-4d0d-97cd-b614a17c684e
+r	java:S1066"+Replace this use of System.out by a logger.(µüËÖüÿÿÿÿ8äÑ’¥ï1J$641a40b3-b62a-412a-b656-eb4bfb5613db
+r	java:S106C"+Replace this use of System.out by a logger.(ÖØƒøÿÿÿÿ8èÑ’¥ï1J$81855201-cd97-4454-8a43-4677649c6950
+r	java:S106E"+Replace this use of System.out by a logger.(Çú¾ıÿÿÿÿ8éÑ’¥ï1J$989f7dcd-c0cb-47fa-b43a-b1f59cd8e9bb
+r	java:S106J"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8˜¡²¥ï1J$4684dd00-8ede-429d-b11a-b37dcaed432a
+O
+java:S1128"-Remove this unused import 'org.example.Data'.(íŠ½±ıÿÿÿÿ8ûğåªï1
+R
+java:S1128"5Remove this unused import 'org.example.entity.Order'.(×›Ò8ûğåªï1
+X
+java:S1128";Remove this unused import 'org.example.entity.OrderDetail'.(õ–®ê8…ñåªï1
+V
+java:S1128
+"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8…ñåªï1
+M
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8…ñåªï1

@@ -1,0 +1,27 @@
+
+
+java:S1192H"MDefine a constant instead of duplicating this literal "Es Teh Manis" 3 times.(µĞ¡K8Ö°íï1J$76e9b40a-a596-448d-ae06-131a5081b001
+œ
+java:S1104"TMake tempUser a static final constant or non-public and provide accessors if needed.(¥›Â½úÿÿÿÿ8ˆ¹“ï1J$07be0b84-7595-4b56-9ffe-6f4753c4b3ae
+™
+java:S1104"QMake users a static final constant or non-public and provide accessors if needed.(Ù®Åˆûÿÿÿÿ8Ø°íï1J$5cb443bf-d7f6-4bac-b99f-fb92a9b73817
+w
+java:S1104"UMake dataOrder a static final constant or non-public and provide accessors if needed.(£ß‡Ñÿÿÿÿÿ8‹æ–¥ï1
+—
+java:S1104"TMake products a static final constant or non-public and provide accessors if needed.(ÒÁù8Ø°íï1J$c2c539ec-75d8-4f3a-8996-793199c5382e
+v
+java:S1444".Make this "public static tempUser" field final(¥›Â½úÿÿÿÿ8‰¹“ï1J$4bb1e21c-4235-415c-bf64-140d6699fd43
+s
+java:S1444"+Make this "public static users" field final(Ù®Åˆûÿÿÿÿ8Ù°íï1J$d1cddf1a-98d3-47da-a463-3bf1870a807e
+Q
+java:S1444"/Make this "public static dataOrder" field final(£ß‡Ñÿÿÿÿÿ8æ–¥ï1
+q
+java:S1444".Make this "public static products" field final(ÒÁù8Ú°íï1J$1d0a91c6-c7e7-4e72-a326-09635fce7e28
+e
+java:S2386"Make this member "protected".(Ù®Åˆûÿÿÿÿ8à°íï1J$99807bea-1f5f-4963-bdf5-3ce086e79dbc
+?
+java:S2386"Make this member "protected".(£ß‡Ñÿÿÿÿÿ8¢æ–¥ï1
+`
+java:S2386"Make this member "protected".(ÒÁù8úş˜‘ï1J$fed26295-6da6-4e86-b299-64792d4f9d95
+w
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8ÿ˜‘ï1J$ea3c952a-95dc-4ef2-81fe-9f17973c55b1
