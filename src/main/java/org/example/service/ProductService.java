@@ -12,4 +12,6 @@ public interface ProductService {
     List<OrderDetail> getListOrder();
 
     List<Product> getProduct();
+
+
 }

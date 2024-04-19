@@ -1,4 +1,4 @@
-package org.example.test;
+package org.example.test.service;
 
 import org.example.Data;
 import org.example.entity.Users;

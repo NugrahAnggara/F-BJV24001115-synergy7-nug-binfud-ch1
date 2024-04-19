@@ -1,6 +1,7 @@
 package org.example.controller;
 
 import org.example.Data;
+import org.example.entity.OrderDetail;
 import org.example.entity.Product;
 import org.example.service.ProductService;
 import org.example.service.ProductServiceImpl;
@@ -27,7 +28,7 @@ public class ProductController {
             if (product.isPresent()) {
                 productView.detailProduct(product.get());
             } else if (choosing == 99) {
-
+                productView.confirmAndPay();
             } else if (choosing == 0) {
                 System.exit(0);
             } else {
@@ -53,4 +54,43 @@ public class ProductController {
            throw new InputException("Pastikan Memasukkan Quantity Dengan Benar");
        }
     }
+
+    public List<OrderDetail> getOrder(){
+        ProductService productService = new ProductServiceImpl();
+        return productService.getListOrder();
+    }
+
+
+    public void menuSelectedPayment(String input)throws InputException{
+        try{
+            int inputan = Integer.parseInt(input);
+            switch (inputan){
+                case 1 :
+                    productView.displayStruct();
+                    break;
+                case 2 :
+                    productView.mainMenu();
+                    break;
+                case 0:
+                    System.exit(0);
+                    break;
+                default:
+                    throw new InputException("Pastikan Memilih Inputan Yang Benar");
+            }
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+
+
+    public void printStruck(){
+        ProductService productService = new ProductServiceImpl();
+        if (productService.printStruct()){
+            System.out.println("Struck Berhasil Dibuat");
+        }else {
+            System.out.println("Struck Tidak Berhasil Dibuat");
+        }
+    }
+
+
 }
