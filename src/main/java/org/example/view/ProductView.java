@@ -8,7 +8,6 @@ import org.example.util.exception.InputException;
 
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class ProductView {
     private Scanner scanner = new Scanner(System.in);

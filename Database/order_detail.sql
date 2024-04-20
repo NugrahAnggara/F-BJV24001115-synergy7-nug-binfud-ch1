@@ -1,5 +1,5 @@
 CREATE TABLE order_detail (
-    id int PRIMARY KEY NOT NULL,
+    id uuid PRIMARY KEY NOT NULL DEFAULT gen_random_uuid(),
     quantity INTEGER Not NULL,
     total_price INTEGER NOT NULL,
     order INTEGER REFERENCES order(id),

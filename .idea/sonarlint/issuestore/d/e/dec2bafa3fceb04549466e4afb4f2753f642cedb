@@ -1,9 +1,9 @@
 
 ¬
 java:S1192"dDefine a constant instead of duplicating this literal "==================================
-" 4 times.(óª¬ûÿÿÿÿÿ8‰Ý›·ï1J$cd02dcc9-dfd8-4044-be89-9f67d7f0616f
+" 4 times.(óª¬ûÿÿÿÿÿ8‰Ý›·ï1J$d647cc95-116f-498b-8e06-30c27a52cf24
 z
-java:S6126"2Replace this String concatenation with Text block.(óª¬ûÿÿÿÿÿ8ŸÝ›·ï1J$e85dceb9-04b5-4c9d-a30b-2c1334feec53
+java:S6126"2Replace this String concatenation with Text block.(óª¬ûÿÿÿÿÿ8ŸÝ›·ï1J$e6dc6431-8aaf-45ca-966d-80c965400aa2
 u
-java:S6126*"2Replace this String concatenation with Text block.(¡†‘Ñ8¢Ý›·ï1J$04559d9d-0e0e-4252-a1ba-f714d78619c7
-m	java:S1060"+Replace this use of System.out by a logger.(ñ·¤¬8¤Ý›·ï1J$8e482740-5e00-4aa1-a838-c08e3f587bbd
+java:S6126*"2Replace this String concatenation with Text block.(¡†‘Ñ8¢Ý›·ï1J$dca80b89-39a8-42e8-89e7-4bc76201d737
+m	java:S1060"+Replace this use of System.out by a logger.(ñ·¤¬8¤Ý›·ï1J$98408149-47dd-438f-aa9b-124e41663fdd
